@@ -3,9 +3,8 @@
 #include <iostream>
 using namespace std;
 
-class Node
+struct Node
 {
-public:
     int data;
     Node* next;
     Node* prev;
@@ -14,9 +13,12 @@ public:
 class Circular_Linked_Listed
 {
 public:
-    Circular_Linked_Listed();
-    void displayList() const;
-    Node* head;
+    
+Circular_Linked_Listed();
+    
+void displayList() const;
+Node* head;
+    
 };
 
 
